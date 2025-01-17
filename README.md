@@ -79,9 +79,4 @@ The KNN-based credit risk assessment model demonstrates the potential of machine
 - [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 - [Credit Risk Assessment in R with KNN](https://medium.com/@charlesdirenzo/credit-risk-assessment-in-r-with-knn-53c0ad06ecf7)
 
-2) Create a KNN classifier between Features and target data
-3) Display the test score 
-4) Display the training score 
-5) Print the accuracy score 
-6) Try 1 to 14 k values for classifier 
-7) Display training and testing score for all the 1 to 14 k values
+
