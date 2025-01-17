@@ -76,7 +76,6 @@ The KNN-based credit risk assessment model demonstrates the potential of machine
 ## References
 
 - [Credit Risk Analysis using KNN Model](https://www.kaggle.com/code/ardhikamalhaq/credit-risk-analysis-using-knn-model)
-- [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 - [Credit Risk Assessment in R with KNN](https://medium.com/@charlesdirenzo/credit-risk-assessment-in-r-with-knn-53c0ad06ecf7)
 
 
