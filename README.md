@@ -1,25 +1,84 @@
-# KNN_credit_risk_analysis
+# KNN Credit Risk Analysis
 
-# Project Description:
+## Project Overview
 
-In this particular project, we are using a dataset that contains information like, Age, Total Work Experience, number of years in city, cost to request ratio etc. and using that to classify loan applicant’s Risk segmentation. 
-However, before you go ahead with the project it is advised that you first preprocess the data, since it may contain some irregularities and noise. 
-In addition, try various tricks and techniques in order to gain the best accuracy in your predictions. 
+This project focuses on assessing the credit risk of loan applicants using the K-Nearest Neighbors (KNN) algorithm. By analyzing features such as age, total work experience, years in the current city, and cost-to-request ratio, the model classifies applicants into different risk categories. The primary objective is to develop a reliable model that aids financial institutions in making informed lending decisions.
 
-# Part-1: Data Exploration and Pre-processing
+## Table of Contents
 
-1) load the given dataset 
-2) Check for the null values 
-3) Get basic information from data 
-4) Describe the dataset 
-5) Display scatterplot between age & Total work Experience 
-6) Display box plot for age 
-7) Display box plot for Cibil score 
-8) Create target and features data where target is Total bounces past 12 months
+- [Dataset](#dataset)
+- [Data Exploration and Pre-processing](#data-exploration-and-pre-processing)
+- [Model Development](#model-development)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [References](#references)
 
-# Part-2: Working with Model 
+## Dataset
 
-1) Split data into training and testing sets 
+The dataset comprises various attributes of loan applicants, including:
+
+- **Age**: Applicant's age
+- **Total Work Experience**: Number of years the applicant has worked
+- **Years in City**: Duration of residence in the current city
+- **Cost to Request Ratio**: Financial metric indicating the ratio between the cost incurred and the amount requested
+- **Cibil Score**: Credit score of the applicant
+- **Total Bounces Past 12 Months**: Number of payment bounces in the past year
+
+The target variable is the **Risk Segmentation**, which classifies applicants into different risk levels.
+
+## Data Exploration and Pre-processing
+
+Initial steps involve:
+
+1. **Loading the Dataset**: Importing the data for analysis.
+2. **Handling Missing Values**: Identifying and imputing or removing null values.
+3. **Statistical Summary**: Generating descriptive statistics to understand data distribution.
+4. **Visualizations**:
+   - **Scatter Plot**: Relationship between Age and Total Work Experience.
+   - **Box Plots**: Distribution of Age and Cibil Score to detect outliers.
+5. **Feature Selection**: Identifying relevant features for the model.
+6. **Data Transformation**: Normalizing or standardizing features to improve model performance.
+
+## Model Development
+
+Steps to build the KNN model:
+
+1. **Data Splitting**: Dividing the dataset into training and testing sets.
+2. **Model Training**: Applying the KNN algorithm to the training data.
+3. **Hyperparameter Tuning**: Optimizing the number of neighbors (k) for best performance.
+4. **Cross-Validation**: Ensuring the model's robustness and generalizability.
+
+## Evaluation Metrics
+
+The model's performance is evaluated using:
+
+- **Accuracy**: Proportion of correctly classified instances.
+- **Precision**: Accuracy of positive predictions.
+- **Recall**: Ability to identify all positive instances.
+- **F1 Score**: Harmonic mean of precision and recall.
+
+## Results
+
+The optimized KNN model achieved:
+
+- **Accuracy**: *e.g.,* 85%
+- **Precision**: *e.g.,* 80%
+- **Recall**: *e.g.,* 78%
+- **F1 Score**: *e.g.,* 79%
+
+*Note: Replace the placeholder values with actual results from your model.*
+
+## Conclusion
+
+The KNN-based credit risk assessment model demonstrates the potential of machine learning in evaluating loan applicants. By effectively preprocessing data and tuning the model, financial institutions can leverage such tools to enhance decision-making processes.
+
+## References
+
+- [Credit Risk Analysis using KNN Model](https://www.kaggle.com/code/ardhikamalhaq/credit-risk-analysis-using-knn-model)
+- [How to Write a Good README File for Your GitHub Project](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+- [Credit Risk Assessment in R with KNN](https://medium.com/@charlesdirenzo/credit-risk-assessment-in-r-with-knn-53c0ad06ecf7)
+
 2) Create a KNN classifier between Features and target data
 3) Display the test score 
 4) Display the training score 
